@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.zcore.zexreflection.utils;
+package dev.knoxy.zexreflection.utils;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import com.zcore.zexreflection.annotation.ZClass;
-import com.zcore.zexreflection.annotation.ZClassName;
-import com.zcore.zexreflection.annotation.ZClassNameNotProcess;
+import dev.knoxy.zexreflection.annotation.ZClass;
+import dev.knoxy.zexreflection.annotation.ZClassName;
+import dev.knoxy.zexreflection.annotation.ZClassNameNotProcess;
 
 /**
  * Utility class for dynamically resolving and loading target classes 

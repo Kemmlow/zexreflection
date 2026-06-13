@@ -1,4 +1,4 @@
-package com.zcore.zexreflection.annotation;
+package dev.knoxy.zexreflection.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -6,9 +6,10 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Signals that the marked interface operation maps to a target instance method invocation.
+ * Intercepts orchestration workflows to apply raw field writes directly to structural variables 
+ * without routing through pipeline validation filters.
  */
 @Target({ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
-public @interface ZMethod {
+public @interface ZFieldSetNotProcess {
 }

@@ -1,8 +1,8 @@
 -keepattributes RuntimeVisibleAnnotations,AnnotationDefault,Signature
 
--keep @interface com.zcore.zexreflection.annotation.** { *; }
+-keep @interface dev.knoxy.zexreflection.annotation.** { *; }
 
--keep class com.zcore.zexreflection.** {
+-keep class dev.knoxy.zexreflection.** {
     protected <fields>;
     public <methods>;
 }

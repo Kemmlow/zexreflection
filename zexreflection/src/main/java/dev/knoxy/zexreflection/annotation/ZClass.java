@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.zcore.zexreflection.annotation;
+package dev.knoxy.zexreflection.annotation;
 
 import androidx.annotation.NonNull;
 import java.lang.annotation.ElementType;

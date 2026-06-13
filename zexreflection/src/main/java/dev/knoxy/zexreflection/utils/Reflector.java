@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.zcore.zexreflection.utils;
+package dev.knoxy.zexreflection.utils;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

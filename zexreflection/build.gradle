@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = 'com.zcore.zexreflection'
+    namespace = 'dev.knoxy.zexreflection'
     compileSdk = 37 // Android 17
 
     defaultConfig {
